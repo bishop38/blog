@@ -1,0 +1,24 @@
+.header-logo {
+    display: flex;
+    align-items: center;
+
+    &__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        .logo-text {
+            font-size: 35px;
+            color: #EFF2F1;
+
+            &_color {
+                color: azure;
+                padding: 0 8px;
+                border-radius: 15px;
+                transition: 1.5s;
+            }
+        }
+    }
+
+
+}

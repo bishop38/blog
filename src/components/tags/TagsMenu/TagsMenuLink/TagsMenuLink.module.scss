@@ -1,0 +1,27 @@
+.menu__link {
+    text-decoration: none;
+    display: flex;
+    color: azure;
+    font-size: 22px;
+    display: inline;
+    transition: 1.5s;
+
+    &:hover {
+        //text-decoration: none;
+        //display: flex;
+        //display: inline;
+
+    }
+}
+
+.menu__link_active {
+    text-decoration: none;
+    display: flex;
+    // margin-right: 30px;
+    display: inline;
+    background-color: #4059AD;
+    padding: 8px;
+    //font-size: 22px;
+    //border-radius: 8px;
+    //color: azure;
+}
